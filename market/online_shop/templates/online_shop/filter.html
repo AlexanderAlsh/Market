@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for obj in queryset %}
+    <p>{{ obj.title }}</p><br />
+    <image>{{ obj.image.url }}</image>
+    <p>{{ obj.brand }}</p><br />
+{% endfor %}
+</body>
+</html>
